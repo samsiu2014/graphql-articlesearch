@@ -2,9 +2,9 @@
   "name": "graphql-api-endpoint-article-search",
   "version": "1.0.0",
   "description": "GraphQL API endpoint - Article Search",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "npm-run-all --parallel build:watch run:watch",
+    "start": "run",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "build:watch": "webpack --watch",
