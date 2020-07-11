@@ -8,4 +8,4 @@ RUN webpack
 
 COPY . .
 EXPOSE 5000
-CMD [ "npm", "run" ]
+CMD [ "npm", "run run" ]
