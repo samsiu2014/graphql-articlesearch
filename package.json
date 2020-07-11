@@ -4,7 +4,7 @@
   "description": "GraphQL API endpoint - Article Search",
   "main": "app.js",
   "scripts": {
-    "start": "run",
+    "start": "node ./dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "build:watch": "webpack --watch",
