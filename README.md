@@ -9,12 +9,12 @@
 ## GraphQL
 
 #### Query articles with pagination
-#### Search text with `investor` and topics with `Asia` with page 1 and pagesize is 3
+#### Search text with `investor` and topics with `Asia` with page 1 and page size is 3
 
 ```
 {
   articles(q:"investor", t:"Asia", page: 1, pageSize: 3){
-  	id
+    id
     text
     topics
     image
@@ -57,7 +57,7 @@
 ```
 
 #### Query articles with cursor
-#### Search text with `investor` and topics with `Asia` with article id 7 as cursor and pageSize is 2
+#### Search text with `investor` and topics with `Asia` with article id 7 as cursor and page size is 2
 
 ```
 {
